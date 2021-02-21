@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import { colors } from '../../assets/styles/_variables';
 
+import { Search } from '@styled-icons/boxicons-regular/Search';
+import { UserCircle } from '@styled-icons/boxicons-solid/UserCircle';
+
 export const Header = styled.header`
   width: 100%;
   height: 70px;
@@ -17,11 +20,15 @@ export const HeaderContainer = styled.div`
   margin: 0 auto;
 `;
 
+export const BoxSearch = styled.div`
+  position: relative;
+`;
+
 export const Input = styled.input`
-  width: 820px;
+  width: 755px;
   height: 40px;
   border-radius: 50px;
-  padding: 0 20px;
+  padding: 0 20px 0 45px;
   font-size: 16px;
 
   &:focus {
@@ -29,8 +36,15 @@ export const Input = styled.input`
   }
 `;
 
-export const User = styled.div`
+export const User = styled(UserCircle)`
   width: 35px;
-  height: 35px;
-  background: #ccc;
+  color: #fff;
+`;
+
+export const IconSearch = styled(Search)`
+  width: 30px;
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  color: #b3c02c;
 `;
