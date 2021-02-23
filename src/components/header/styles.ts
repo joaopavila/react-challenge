@@ -9,7 +9,9 @@ export const Header = styled.header`
   height: 70px;
   background: ${colors.header};
   display: flex;
-  box-shadow: 0px 0px 15px #888888;
+  box-shadow: 0px 0px 15px #ccc;
+  position: fixed;
+  z-index: 999;
 `;
 
 export const HeaderContainer = styled.div`
@@ -30,6 +32,8 @@ export const Input = styled.input`
   border-radius: 50px;
   padding: 0 20px 0 45px;
   font-size: 16px;
+  color: #9e9e9e;
+  font-weight: 300;
 
   &:focus {
     outline: none;

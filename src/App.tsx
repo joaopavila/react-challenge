@@ -1,10 +1,16 @@
+import * as S from './globalStyles';
+
 import Header from './components/header/header';
+import Sidebar from './components/sidebar/sidebar';
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <Header />
-    </div>
+      <S.Section>
+        <Sidebar />
+      </S.Section>
+    </>
   );
 };
 
