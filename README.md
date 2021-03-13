@@ -47,4 +47,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## StoryBook
 
-You can learn more in the documentation [storybook](storybook.js.org/docs/react/get-started/introduction)
+You can learn more in the documentation [storybook](https://storybook.js.org/docs/react/get-started/introduction)
