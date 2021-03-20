@@ -5,7 +5,7 @@ export const Sidebar = styled.aside`
   height: 100vh;
   background: #fff;
   box-shadow: 5px 0px 10px -5px #ccc;
-  position: fixed;
+  /* position: fixed; */
   padding-top: 90px;
 `;
 
@@ -23,5 +23,10 @@ export const ListItem = styled.li`
 
   &:hover {
     font-weight: bold;
+  }
+
+  a {
+    color: #9e9e9e;
+    text-decoration: none;
   }
 `;

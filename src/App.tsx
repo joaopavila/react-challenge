@@ -1,15 +1,13 @@
-import * as S from './globalStyles';
+import React from 'react';
 
-import Header from './components/header/header';
-import Sidebar from './components/sidebar/sidebar';
+import Routes from './Routes';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <S.Section>
-        <Sidebar />
-      </S.Section>
+      <React.Suspense fallback={<div>Carregando...</div>}>
+        <Routes />
+      </React.Suspense>
     </>
   );
 };
