@@ -12,13 +12,9 @@
     "build-storybook": "build-storybook -s public",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*": [
+      "yarn prepare",
       "yarn lint --fix",
       "yarn test --findRelatedTests --bail",
       "git add"
