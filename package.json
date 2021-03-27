@@ -12,7 +12,9 @@
     "build-storybook": "build-storybook -s public"
   },
   "husky": {
-    "hooks": {}
+    "hooks": {
+      "pre-push": "lint-staged"
+    }
   },
   "lint-staged": {
     "src/**/*": [
@@ -83,5 +85,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopavila/react-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopavila/react-challenge/issues"
+  },
+  "homepage": "https://github.com/joaopavila/react-challenge#readme"
 }
