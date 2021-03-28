@@ -6,4 +6,4 @@ export default {
   component: Header,
 } as Meta;
 
-export const BasicHeader: Story = () => <Header />;
+export const HeaderStory: Story = () => <Header />;

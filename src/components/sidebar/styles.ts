@@ -18,12 +18,8 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  margin-top: 7px;
+  margin-bottom: 20px;
   cursor: pointer;
-
-  &:hover {
-    font-weight: bold;
-  }
 
   a {
     color: #9e9e9e;

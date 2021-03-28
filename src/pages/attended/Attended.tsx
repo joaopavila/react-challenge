@@ -1,7 +1,9 @@
+import Users from '../../components/users/users';
+
 const Attended = () => {
   return (
     <>
-      <p>Attended</p>
+      <Users></Users>
     </>
   );
 };

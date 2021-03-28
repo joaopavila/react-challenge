@@ -15,5 +15,5 @@ export const Section = styled.section`
 
 export const Container = styled.div`
   width: 1191px;
-  margin-top: 90px;
+  margin-top: 70px;
 `;

@@ -134,4 +134,9 @@ export const reset = `
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
+
+  body {
+    font-family: Helvetica;
+    color: #9e9e9e;
+  }
 `;

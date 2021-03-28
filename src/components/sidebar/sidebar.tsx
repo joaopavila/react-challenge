@@ -1,3 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTrash,
+  faCheckDouble,
+  faUsers,
+} from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 
 import * as S from './styles';
@@ -11,10 +17,11 @@ const Sidebar = () => {
             to="/"
             exact
             activeStyle={{
+              color: '#B3C02C',
               fontWeight: 'bold',
             }}
           >
-            Todos
+            <FontAwesomeIcon icon={faUsers} /> Todos
           </NavLink>
         </S.ListItem>
         <S.ListItem>
@@ -22,10 +29,11 @@ const Sidebar = () => {
             to="/attended"
             exact
             activeStyle={{
+              color: '#B3C02C',
               fontWeight: 'bold',
             }}
           >
-            Atendidos
+            <FontAwesomeIcon icon={faCheckDouble} /> Atendidos
           </NavLink>
         </S.ListItem>
         <S.ListItem>
@@ -33,10 +41,11 @@ const Sidebar = () => {
             to="/trash"
             exact
             activeStyle={{
+              color: '#B3C02C',
               fontWeight: 'bold',
             }}
           >
-            Lixeira
+            <FontAwesomeIcon icon={faTrash} /> Lixeira
           </NavLink>
         </S.ListItem>
       </S.List>

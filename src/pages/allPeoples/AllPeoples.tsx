@@ -1,7 +1,9 @@
+import Users from '../../components/users/users';
+
 const AllPeoples = () => {
   return (
     <>
-      <p>Todoas as pessoas</p>
+      <Users></Users>
     </>
   );
 };

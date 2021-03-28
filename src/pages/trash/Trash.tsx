@@ -1,7 +1,9 @@
+import Users from '../../components/users/users';
+
 const Trash = () => {
   return (
     <>
-      <p>Trash</p>
+      <Users></Users>
     </>
   );
 };
