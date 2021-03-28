@@ -10,10 +10,10 @@ const User = () => (
   <>
     <S.User>
       <S.Img src="https://randomuser.me/api/portraits/men/75.jpg" />
-      <S.UserName>Lorraine</S.UserName>
-      <S.Infos>lorraine@gmail.com</S.Infos>
+      <S.UserName>Jhon Doe</S.UserName>
+      <S.Infos>jhondoe@gmail.com</S.Infos>
       <S.Infos>(xx) xxxxx-xxxx</S.Infos>
-      <S.Infos>Uberlandia - MG</S.Infos>
+      <S.Infos>City - State</S.Infos>
       <S.Actions>
         <p>
           <FontAwesomeIcon icon={faUsers} />
