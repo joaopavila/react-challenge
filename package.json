@@ -16,7 +16,7 @@
     "src/**/*": [
       "yarn prepare",
       "yarn lint --fix",
-      "yarn test --findRelatedTests --bail",
+      "yarn test --findRelatedTests --bail --passWithNoTests",
       "git add"
     ]
   },
@@ -94,6 +94,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joaopavila/react-challenge/issues"
-  },
-  "homepage": "https://github.com/joaopavila/react-challenge#readme"
+  }
 }

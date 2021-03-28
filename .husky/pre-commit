@@ -3,4 +3,5 @@
 
 yarn prepare
 yarn lint --fix
+yarn test --bail --passWithNoTests
 git add .
